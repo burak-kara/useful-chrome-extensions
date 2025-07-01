@@ -1,6 +1,7 @@
 # 🧩 Simple Chrome Extensions
 
-A collection of lightweight, privacy-focused Chrome extensions built for speed, simplicity, and specific use cases. Each extension lives in its own folder and is designed to solve a small but useful problem.
+A collection of lightweight, privacy-focused Chrome extensions built for speed, simplicity, and specific use cases. Each
+extension lives in its own folder and is designed to solve a small but useful problem.
 
 ## 📦 Extensions
 
@@ -19,7 +20,8 @@ A clean and minimal currency converter supporting **EUR**, **USD**, and **TRY**.
 
 ### ⏭ skip-ads
 
-**Ad Layer Skipper** is a lightweight Chrome extension designed to bypass intrusive ad layers embedded as iframes on video streaming sites.
+**Ad Layer Skipper** is a lightweight Chrome extension designed to bypass intrusive ad layers embedded as iframes on
+video streaming sites.
 
 - Automatically detects the first `<iframe>` on matching domains (e.g., `example*.com`)
 - Opens the iframe's `src` URL in a new tab
@@ -38,6 +40,22 @@ Ensures all **Decathlon product links** open in a **new tab**.
 - Zero-config, runs automatically on Decathlon pages
 
 🔗 [More Info »](./decathlon-product-new-tab)
+
+---
+
+### 🛒 decathlon-price-compare
+
+A Chrome extension that extracts and displays product prices across other Decathlon sites in different countries,
+helping you compare prices easily.
+
+- Detects and extracts prices using robust CSS selectors
+- Supports multiple Decathlon country sites
+- Simple installation and usage
+- Manifest V3 compliant
+- No external dependencies
+- Privacy-focused: no data collection or tracking
+
+🔗 [More Info »](./decathlon-price-compare)
 
 ---
 

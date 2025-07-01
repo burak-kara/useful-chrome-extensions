@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Decathlon Price Compare",
+    "description": "Compare Decathlon product prices across countries by product ID (mc)",
+    "version": "1.0",
+    "permissions": [
+        "scripting",
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "host_permissions": [
+        "https://www.decathlon.com.tr/*",
+        "https://www.decathlon.fr/*",
+        "https://www.decathlon.de/*"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png"
+    }
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 10px;
+            width: 260px;
+        }
+
+        select, button {
+            width: 100%;
+            margin-top: 8px;
+            padding: 6px;
+        }
+
+        #result {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <label>Product ID:</label>
+    <input id="mc" readonly type="text"/>
+    <label>Target Country:</label>
+    <select id="country">
+        <option selected value="com.tr">Turkey (.com.tr)</option>
+        <option value="fr">France (.fr)</option>
+        <option value="de">Germany (.de)</option>
+        <option value="it">Italy (.it)</option>
+        <option value="es">Spain (.es)</option>
+        <option value="uk">United Kingdom (.co.uk)</option>
+    </select>
+    <button id="find">Find Price</button>
+    <div id="result"></div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
