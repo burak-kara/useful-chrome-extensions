@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Decathlon Open in New Tab",
+    "version": "1.0",
+    "description": "Open Decathlon product links in a new tab.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.decathlon.fr/*",
+                "https://www.decathlon.es/*",
+                "https://www.decathlon.de/*",
+                "https://www.decathlon.it/*",
+                "https://www.decathlon.co.uk/*",
+                "https://www.decathlon.com/*",
+                "https://www.decathlon.com.tr/*"
+            ],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [],
+    "icons": {
+        "48": "icon.png"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Skip Ads",
+    "version": "1.0",
+    "description": "Auto-opens the first iframe's source on matching domains.",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["config.json"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+
+}
